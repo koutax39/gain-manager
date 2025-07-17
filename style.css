@@ -24,3 +24,25 @@ button {
 button:hover {
   background-color: #357ec7;
 }
+#calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.day {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  min-height: 60px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.day:hover {
+  background-color: #e0f0ff;
+}
